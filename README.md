@@ -25,8 +25,8 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 ## Procedure
 ```Connect the supply (+5V) to the circuit
 Switch ON the main switch
-If the output is 1, then the led glows.```
-```### Program:
+If the output is 1, then the led glows.
+### Program:
 
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: EASWAR.J
@@ -57,6 +57,12 @@ or(borrow,s,t);
 endmodule 
 ```
 Logic symbol & Truthtable
+### Half subtractor truth table:
+![ex3t](https://user-images.githubusercontent.com/94154683/165960966-add01287-f6c2-40f8-89a0-ecbb01d2c401.PNG)
+
+### Full subtractor truth table:
+![EX3TT](https://user-images.githubusercontent.com/94154683/165961092-49a612d3-6757-4a01-a496-a7fe1ebc7cd0.PNG)
+
 
 RTL realization
 Output:
